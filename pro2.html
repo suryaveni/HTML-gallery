@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        div img{
+         width: 400px;
+         height: 300px;
+         border: 2px solid #ff3d0036;
+         border-radius: 13px;
+         box-shadow: 4px 7px 7px 0px;
+         cursor: pointer;
+         margin: 10px;
+         transition: 400ms;
+        }
+
+        div img:hover{
+            filter: grayscale();
+            transform: scale(1.03);
+        }
+        h2{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+            color: rgb(102, 79, 102);
+            justify-content: center;
+            display: contents;
+            text-shadow:3cm blue;
+        }
+        button{
+            font-family: 'Courier New', Courier, monospace;;
+            justify-content: center;
+            color: red;
+            border-radius: 13px;
+            background-color: hotpink;
+            margin-top: 20px;
+
+        }
+        button:hover{
+            filter: grayscale();
+            cursor: pointer;
+            border-color: darkviolet;
+            text-shadow: rgb(from color r g b);
+            
+        }
+    </style>
+</head>
+<body>
+<center><h2><i> Surya's Gallery Box</i></h2></center>
+    <div>
+        <img src="S:\sun.jpg" alt="">
+        <img src="S:\tree.jpg" alt="">
+        <img src="S:\sunrise.jpg" alt="">
+        <img src="S:\duck.jpg" alt="">
+        <img src="S:\nature.jpg" alt="">
+        <img src="S:flower.jpg" alt="">
+    </div>
+    <center><button><h3><i>Add to Gallery</i></h3></button></center>
+</body>
+</html>
